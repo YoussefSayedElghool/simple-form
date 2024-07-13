@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0" />
+  <title>form</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  
+</head>
+
+<body>
+  <form action="Assimaent 2.html" method="get">
+    <fieldset>
+      <legend>login</legend>
+
+      <label for="email" class="login_label"><u>E</u>mail</label>
+      <input type="email" id="email" name="email" value="" placeholder="Enter your email" accesskey="e" required
+        pattern="^[a-zA-Z]+@gmail.com">
+      <p class="error">invalid email structuer</p>
+      <br>
+      <label for="password" class="login_label"><u>P</u>assword</label>
+      <input type="password" id="password" name="password" value="" placeholder="Enter your password" accesskey="p"
+        required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,16}$">
+      <p class="error">this password is very week</p>
+      <br>
+      <br>
+
+      <input type="checkbox" value="" id="rememberMe" name="isRemembred" checked><label for="rememberMe"> Remember
+        me</label>
+      <br>
+      <br>
+      <button type="submit">Login</button>
+    </fieldset>
+  </form>
+</body>
+
+</html>
